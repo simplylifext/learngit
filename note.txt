@@ -1,0 +1,33 @@
+mkdir	 创建目录
+cd        路径
+pwd    显示当前路径
+git rm 删除
+clear 清屏
+git add *** 添加文件 先添加再提交  ----存到暂存区
+git comit -m "wrote a readme file " 提交到仓库
+git status 查看仓库状态
+git diff *** 查看修改内容
+
+git clean -f   删除 untracked files
+git clean -nf 查看删除哪些
+
+git reset --hard commit_id 穿梭！
+git log 查看提交历史
+git reflog 查看命令历史 以便于回到未来
+
+git checkout -- file 回退版本
+git remote add origin git@server-name:path/repo-name.git
+关联一个远程库
+git push -u origin master  第一次推送
+git push origin master      推送最新修改
+git clone 仓库地址(git@github.com:simplylifext/gitskills.git)
+克隆一个仓库
+
+git branch 查看分支
+git branch <name> 创建分支
+git checkout <name> 切换分支
+git checkout -b <name> 创建并切换分支
+git merge <name> 把某分支合并到当前分支
+git branch -d <name> 删除分支
+git merge --no-ff -m "merge" <name>
+加上--no-ff参数可以用普通模式合并，合并后的历史有分支能看出来。而fast forward合并看不出曾经做过合并
