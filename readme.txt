@@ -5,3 +5,4 @@ new change for test.
 edit u again.
 again and again.
 git tracks changes of files.
+Creating a new branch is quick.
