@@ -9,3 +9,11 @@ Creating a new branch is quick and simple.
 testing insert.It's so cool.
 continue editing.
 It doesn't work done.
+
+function raise_salary($hard, $time){
+     if($hard >=0 && $time >=0){
+     	return "boss say no!";	
+     } else {
+	return "no paid no gains";	
+     }
+}
